@@ -1,0 +1,61 @@
+[
+  {"date":"2024-01-03","region":"US","product":"A","orders":3,"revenue":150},
+  {"date":"2024-01-05","region":"US","product":"B","orders":5,"revenue":260},
+  {"date":"2024-01-08","region":"EU","product":"C","orders":4,"revenue":180},
+  {"date":"2024-01-12","region":"US","product":"A","orders":6,"revenue":320},
+  {"date":"2024-01-15","region":"EU","product":"B","orders":2,"revenue":110},
+
+  {"date":"2024-02-02","region":"US","product":"A","orders":7,"revenue":340},
+  {"date":"2024-02-09","region":"US","product":"C","orders":3,"revenue":140},
+  {"date":"2024-02-13","region":"EU","product":"A","orders":8,"revenue":400},
+  {"date":"2024-02-20","region":"US","product":"B","orders":4,"revenue":210},
+  {"date":"2024-02-22","region":"EU","product":"C","orders":5,"revenue":230},
+
+  {"date":"2024-03-01","region":"US","product":"A","orders":9,"revenue":440},
+  {"date":"2024-03-08","region":"US","product":"B","orders":4,"revenue":200},
+  {"date":"2024-03-11","region":"EU","product":"C","orders":6,"revenue":260},
+  {"date":"2024-03-17","region":"US","product":"A","orders":10,"revenue":520},
+  {"date":"2024-03-23","region":"EU","product":"B","orders":3,"revenue":120},
+
+  {"date":"2024-04-04","region":"US","product":"A","orders":4,"revenue":210},
+  {"date":"2024-04-06","region":"EU","product":"C","orders":7,"revenue":330},
+  {"date":"2024-04-15","region":"US","product":"A","orders":8,"revenue":390},
+  {"date":"2024-04-18","region":"EU","product":"B","orders":2,"revenue":90},
+  {"date":"2024-04-24","region":"US","product":"C","orders":5,"revenue":260},
+
+  {"date":"2024-05-01","region":"US","product":"A","orders":6,"revenue":310},
+  {"date":"2024-05-07","region":"EU","product":"C","orders":5,"revenue":220},
+  {"date":"2024-05-12","region":"US","product":"B","orders":3,"revenue":160},
+  {"date":"2024-05-19","region":"EU","product":"A","orders":9,"revenue":480},
+  {"date":"2024-05-22","region":"US","product":"C","orders":4,"revenue":200},
+
+  {"date":"2024-06-03","region":"US","product":"A","orders":10,"revenue":500},
+  {"date":"2024-06-08","region":"EU","product":"C","orders":6,"revenue":260},
+  {"date":"2024-06-15","region":"US","product":"B","orders":4,"revenue":180},
+  {"date":"2024-06-18","region":"EU","product":"A","orders":7,"revenue":350},
+  {"date":"2024-06-28","region":"US","product":"C","orders":5,"revenue":240},
+
+  {"date":"2024-07-04","region":"US","product":"A","orders":11,"revenue":560},
+  {"date":"2024-07-09","region":"EU","product":"B","orders":4,"revenue":150},
+  {"date":"2024-07-12","region":"US","product":"C","orders":6,"revenue":300},
+  {"date":"2024-07-18","region":"US","product":"A","orders":9,"revenue":430},
+  {"date":"2024-07-25","region":"EU","product":"C","orders":5,"revenue":230},
+
+  {"date":"2024-08-02","region":"US","product":"A","orders":8,"revenue":380},
+  {"date":"2024-08-07","region":"US","product":"B","orders":4,"revenue":190},
+  {"date":"2024-08-14","region":"EU","product":"C","orders":6,"revenue":270},
+  {"date":"2024-08-17","region":"US","product":"A","orders":7,"revenue":340},
+  {"date":"2024-08-29","region":"EU","product":"B","orders":3,"revenue":110},
+
+  {"date":"2024-09-03","region":"US","product":"A","orders":6,"revenue":300},
+  {"date":"2024-09-09","region":"US","product":"C","orders":5,"revenue":240},
+  {"date":"2024-09-15","region":"EU","product":"A","orders":9,"revenue":450},
+  {"date":"2024-09-22","region":"US","product":"B","orders":4,"revenue":160},
+  {"date":"2024-09-27","region":"EU","product":"C","orders":5,"revenue":220},
+
+  {"date":"2024-10-04","region":"US","product":"A","orders":9,"revenue":440},
+  {"date":"2024-10-11","region":"EU","product":"C","orders":6,"revenue":300},
+  {"date":"2024-10-17","region":"US","product":"B","orders":3,"revenue":140},
+  {"date":"2024-10-22","region":"EU","product":"A","orders":8,"revenue":380},
+  {"date":"2024-10-30","region":"US","product":"C","orders":5,"revenue":250}
+]
