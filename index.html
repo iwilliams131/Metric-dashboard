@@ -1,6 +1,3 @@
-let revenueChart;
-let ordersChart;
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,7 +16,7 @@ let ordersChart;
 
   <button id="refreshBtn">Refresh Dashboard</button>
   <br/><br/>
-  
+
   <section class="kpi-section">
     <div class="kpi-card">
       <h3>Total Revenue</h3>
@@ -35,34 +32,8 @@ let ordersChart;
     </div>
   </section>
 
-  // Destroy old charts if they exist
-if (revenueChart) revenueChart.destroy();
-if (ordersChart) ordersChart.destroy();
-
-// Revenue Chart
-revenueChart = new Chart(document.getElementById("revenueChart"), {
-    type: "line",
-    data: {
-        labels: months,
-        datasets: [{
-            label: "Revenue",
-            data: revenueData
-        }]
-    }
-});
-
-// Orders Chart
-ordersChart = new Chart(document.getElementById("ordersChart"), {
-    type: "bar",
-    data: {
-        labels: months,
-        datasets: [{
-            label: "Orders",
-            data: ordersData
-        }]
-    }
-});
-
+  <canvas id="revenueChart"></canvas>
+  <canvas id="ordersChart"></canvas>
 
   <footer>
     <p>Portfolio Demo • Made with HTML, JavaScript, Chart.js</p>
@@ -71,8 +42,4 @@ ordersChart = new Chart(document.getElementById("ordersChart"), {
   <script src="js/dashboard.js"></script>
 </body>
 </html>
-
-document.getElementById("refreshBtn").addEventListener("click", () => {
-    render();
-});
 
