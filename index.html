@@ -1,3 +1,6 @@
+let revenueChart;
+let ordersChart;
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -14,6 +17,9 @@
     <p>This dashboard uses synthetic (fake) data for demonstration purposes only.</p>
   </header>
 
+  <button id="refreshBtn">Refresh Dashboard</button>
+  <br/><br/>
+  
   <section class="kpi-section">
     <div class="kpi-card">
       <h3>Total Revenue</h3>
@@ -29,17 +35,34 @@
     </div>
   </section>
 
-  <main>
-    <section class="chart-container">
-      <h2>Monthly Revenue</h2>
-      <canvas id="revenueChart"></canvas>
-    </section>
+  // Destroy old charts if they exist
+if (revenueChart) revenueChart.destroy();
+if (ordersChart) ordersChart.destroy();
 
-    <section class="chart-container">
-      <h2>Monthly Orders</h2>
-      <canvas id="ordersChart"></canvas>
-    </section>
-  </main>
+// Revenue Chart
+revenueChart = new Chart(document.getElementById("revenueChart"), {
+    type: "line",
+    data: {
+        labels: months,
+        datasets: [{
+            label: "Revenue",
+            data: revenueData
+        }]
+    }
+});
+
+// Orders Chart
+ordersChart = new Chart(document.getElementById("ordersChart"), {
+    type: "bar",
+    data: {
+        labels: months,
+        datasets: [{
+            label: "Orders",
+            data: ordersData
+        }]
+    }
+});
+
 
   <footer>
     <p>Portfolio Demo • Made with HTML, JavaScript, Chart.js</p>
@@ -48,4 +71,8 @@
   <script src="js/dashboard.js"></script>
 </body>
 </html>
+
+document.getElementById("refreshBtn").addEventListener("click", () => {
+    render();
+});
 
